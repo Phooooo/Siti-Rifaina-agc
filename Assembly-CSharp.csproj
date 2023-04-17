@@ -37,8 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\UI_PesanLevel.cs" />
+     <Compile Include="Assets\PlayerProgress.cs" />
      <Compile Include="Assets\UI_Pertanyaan.cs" />
      <Compile Include="Assets\UI_Timer.cs" />
+     <Compile Include="Assets\LevelSoalKuis.cs" />
+     <Compile Include="Assets\LevelPackKuis.cs" />
      <Compile Include="Assets\UI_PoinJawaban.cs" />
      <Compile Include="Assets\LevelManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -54,6 +57,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\contoh.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -61,6 +65,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Temporary\contoh.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>H:\Unity Installer\2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

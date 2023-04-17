@@ -2,18 +2,11 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    [System.Serializable]
-    public struct DataSoal
-    {
-        public string pertanyaan;
-        public Sprite petunjukJawaban;
-
-        public string[] pilihanJawaban;
-        public bool[] adalahBenar;
-    }
+    [SerializeField]
+    private PlayerProgress _playerProgress = null;
 
     [SerializeField]
-    private DataSoal[] _soalSoal = new DataSoal[0];
+    private LevelPackKuis _soalSoal = null;
 
     [SerializeField]
     private UI_Pertanyaan _pertanyaan = null;
@@ -25,6 +18,12 @@ public class LevelManager : MonoBehaviour
 
     private void Start()
     {
+        if (!_playerProgress.MuatProgres())
+        {
+            _playerProgress.SimpanProgres();
+        }
+        
+        
         NextLevel();
     }
 
@@ -34,13 +33,13 @@ public class LevelManager : MonoBehaviour
         _indexSoal++;
 
         //jika index melampaui soal terakhir, ulang dari awal
-        if (_indexSoal >= _soalSoal.Length)
+        if (_indexSoal >= _soalSoal.BanyakLevel)
         {
             _indexSoal = 0;
         }
 
         //ambil data pertanyaan
-        DataSoal soal = _soalSoal[_indexSoal];
+        LevelSoalKuis soal = _soalSoal.AmbilLevelKe(_indexSoal);
 
         //set informasi soal
         _pertanyaan.SetPertanyaan($"Soal {_indexSoal + 1}", 
@@ -49,7 +48,8 @@ public class LevelManager : MonoBehaviour
         for (int i = 0; i < _pilihanJawaban.Length; i++)
         {
             UI_PoinJawaban poin = _pilihanJawaban[i];
-            poin.SetJawaban(soal.pilihanJawaban[i], soal.adalahBenar[i]);
+            LevelSoalKuis.OpsiJawaban opsi = soal.opsiJawaban[i];
+            poin.SetJawaban(opsi.jawabanTeks, opsi.adalahBenar);
         }
         
     }

@@ -640,31 +640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 445836d4400b8574e8b13e664c607007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _soalSoal:
-  - pertanyaan: Siapakah tokoh yang ada di bawah ini?
-    petunjukJawaban: {fileID: 21300000, guid: 4fc32e04fd744e34baf9109b1e0d712b, type: 3}
-    pilihanJawaban:
-    - SOEKARNO
-    - HABIBI
-    - JOKOWI
-    - KIHAJAR DEWANTARA
-    adalahBenar: 00000001
-  - pertanyaan: Siapakah tokoh yang ada di bawah ini?
-    petunjukJawaban: {fileID: 21300000, guid: f37fba0bc5d1fd74f9ee30c493e17132, type: 3}
-    pilihanJawaban:
-    - SOEHARTO
-    - MOH HATTA
-    - SOEKARNO
-    - ACHMAD SUBARJO
-    adalahBenar: 00000100
-  - pertanyaan: Hari sumpah pemuda di peringati pada tanggal berapa?
-    petunjukJawaban: {fileID: 21300000, guid: 57d485c498e3ef4468097c64443ab485, type: 3}
-    pilihanJawaban:
-    - 28 OKTOBER 1928
-    - ' 27 OKTOBER 1927'
-    - 18 JULI 1930
-    - 17 AGUSTUS 1945
-    adalahBenar: 01000000
+  _playerProgress: {fileID: 11400000, guid: dfd081cd0f32fd94182fcac2ab25c3d3, type: 2}
+  _soalSoal: {fileID: 11400000, guid: c1fc47d159273d641af7a0c12b76ca03, type: 2}
   _pertanyaan: {fileID: 501910606}
   _pilihanJawaban:
   - {fileID: 1676561952}
