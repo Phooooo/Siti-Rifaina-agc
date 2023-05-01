@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1393566f-de85-9815-191e-d9bb63f722ee}</ProjectGuid>
+    <ProjectGuid>{58cf80bb-6323-0ad0-0a6e-84eb2eadf0c3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,21 +36,22 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\UI_PesanLevel.cs" />
-     <Compile Include="Assets\Scripts\InisialDataGameplay.cs" />
-     <Compile Include="Assets\Scripts\GameSceneManager.cs" />
-     <Compile Include="Assets\Scripts\PlayerProgress.cs" />
-     <Compile Include="Assets\Scripts\UI_Pertanyaan.cs" />
-     <Compile Include="Assets\Scripts\UI_Timer.cs" />
-     <Compile Include="Assets\Scripts\LevelSoalKuis.cs" />
-     <Compile Include="Assets\Scripts\UI_OpsiLevelPack.cs" />
-     <Compile Include="Assets\Scripts\UI_LevelPackList.cs" />
-     <Compile Include="Assets\Scripts\LevelPackKuis.cs" />
-     <Compile Include="Assets\Scripts\UI_OpsiLevelKuis.cs" />
-     <Compile Include="Assets\Scripts\UI_PoinJawaban.cs" />
-     <Compile Include="Assets\Scripts\LevelManager.cs" />
-     <Compile Include="Assets\Scripts\UI_LevelKuisList.cs" />
-     <Compile Include="Assets\Scripts\LevelMenuDataManager.cs" />
+     <Compile Include="Assets\Script\UI_PesanLevel.cs" />
+     <Compile Include="Assets\Script\PlayerProgress.cs" />
+     <Compile Include="Assets\Script\GameSceneManager.cs" />
+     <Compile Include="Assets\Script\UI_Pertanyaan.cs" />
+     <Compile Include="Assets\Script\UI_Timer.cs" />
+     <Compile Include="Assets\Script\LevelSoalKuis.cs" />
+     <Compile Include="Assets\Script\UI_OpsiLevelPack.cs" />
+     <Compile Include="Assets\Script\LevelMenuDataManager.cs" />
+     <Compile Include="Assets\Script\UI_OpsiLevelKuis.cs" />
+     <Compile Include="Assets\Script\LevelPackKuis.cs" />
+     <Compile Include="Assets\Script\UI_LevelKuisList.cs" />
+     <Compile Include="Assets\Script\UI_LevelPackList.cs" />
+     <Compile Include="Assets\Script\UI_PoinJawaban.cs" />
+     <Compile Include="Assets\Script\InisialDataGameplay.cs" />
+     <Compile Include="Assets\Script\LevelManager.cs" />
+     <Compile Include="Assets\Script\UI_MenuConfirmMessage.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -312,22 +313,22 @@
         <HintPath>H:\Unity Installer\2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>H:\Unity Installer\2021.3.18f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -702,127 +703,127 @@
         <HintPath>H:\Unity Installer\2021.3.18f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>H:\AGATE AKADEMY\Siti Rifaina-Game Kuis\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>C:\Users\IBI System\Downloads\Kuis Agate\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
